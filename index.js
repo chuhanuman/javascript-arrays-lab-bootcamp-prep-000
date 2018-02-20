@@ -15,8 +15,10 @@ function appendKitten(name) {
   
 }
 function removeFirstKitten() {
-  
+  kitten.pop()
+  return kittens
 }
 function removeLastKitten() {
-  
+  kitten.shift()
+  return kittens
 }
