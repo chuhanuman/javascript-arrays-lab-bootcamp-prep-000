@@ -9,10 +9,10 @@ function destructivelyPrependKitten(name) {
   return kittens
 }
 function prependKitten(name) {
-  return [name, kittens...]
+  return [name, ...kittens]
 }
 function appendKitten(name) {
-  return
+  return [...kittens, name]
 }
 function removeFirstKitten() {
   return kittens
