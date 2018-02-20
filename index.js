@@ -20,3 +20,10 @@ function removeFirstKitten() {
 function removeLastKitten() {
   return 
 }
+function destructivelyremoveFirstKitten() {
+  kittens.unshift()
+  return kittens
+}
+function destructivelyremoveLastKitten() {
+  return kittens
+}
