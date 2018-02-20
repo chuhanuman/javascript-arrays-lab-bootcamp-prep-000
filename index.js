@@ -15,10 +15,8 @@ function appendKitten(name) {
   
 }
 function removeFirstKitten() {
-  kittens.shift()
   return kittens
 }
 function removeLastKitten() {
-  kittens.shift()
-  return kittens
+  return kittens.slice(0, ...kittens)
 }
